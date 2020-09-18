@@ -16,18 +16,23 @@ header {
   display: flex;
   justify-content: center;
 }
+body {
+  background-color: rgb(216, 185, 247);
+}
 
 article {
   display: flex;
   margin: 2.6%;
   flex-direction: row;
   justify-content: space-between;
+  background-color: rgb(193, 141, 241);
+  border: 30px rgb(164, 78, 245) solid;
 }
 
 li a {
   font-size: 25px;
-  color: white;
   text-decoration: none;
+  color: white;
 }
 li {
   list-style: none;
@@ -40,4 +45,15 @@ header ul {
 
 p {
   width: 50%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  white-space: nowrap;
+  background-color: rgb(53, 0, 53);
+  color: rgb(216, 185, 247);
+}
+footer a {
+  color: rgb(216, 185, 247);
 }
