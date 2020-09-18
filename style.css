@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(53, 0, 53);
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 1%;
+}
+
+.Rubrik {
+  margin: 5%;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  display: flex;
+  margin: 2.6%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  margin: 20px;
+}
+
+header ul {
+  display: flex;
+}
+
+p {
+  width: 50%;
+}
