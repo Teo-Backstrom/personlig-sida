@@ -10,6 +10,15 @@ header {
   padding: 1%;
 }
 
+header ul {
+  display: flex;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .Rubrik {
   margin: 5%;
   font-size: larger;
@@ -26,7 +35,7 @@ article {
   flex-direction: row;
   justify-content: space-between;
   background-color: rgb(193, 141, 241);
-  border: 30px rgb(164, 78, 245) solid;
+  border: 2vw rgb(164, 78, 245) solid;
 }
 
 li a {
@@ -39,12 +48,8 @@ li {
   margin: 20px;
 }
 
-header ul {
-  display: flex;
-}
-
-p {
-  width: 50%;
+img {
+  width: 21vw;
 }
 
 footer {
@@ -54,6 +59,7 @@ footer {
   background-color: rgb(53, 0, 53);
   color: rgb(216, 185, 247);
 }
+
 footer a {
   color: rgb(216, 185, 247);
 }
