@@ -42,18 +42,18 @@ h2 {
 }
 
 body {
-  background-image: url(kalen-emsley-Bkci_8qcdvQ-unsplash.jpg);
-  background-repeat: no-repeat;
+  background-image: url("https://images.wallpapersden.com/image/download/night-mountains-summer-illustration_65051_1920x1080.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
 article {
   font-family: cursive;
+  background-color: rgba(216, 185, 247, 0.8);
+  background-size: 100%;
 }
 
 #Ensamble {
-  background-color: rgba(216, 185, 247, 0.8);
   display: flex;
   text-align: center;
   align-items: center;
@@ -71,7 +71,6 @@ article {
 }
 
 #Webutveckling {
-  background-color: rgba(216, 185, 247, 0.8);
   display: flex;
   justify-content: space-between;
   padding: 4vw;
@@ -91,7 +90,6 @@ article {
 }
 
 #Programering {
-  background-color: rgba(216, 185, 247, 0.8);
   display: flex;
 }
 
@@ -111,7 +109,6 @@ article {
 }
 
 #DaoDac {
-  background-color: rgba(216, 185, 247, 0.8);
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -119,14 +116,15 @@ article {
 }
 
 #DaoDac p {
-  width: 35%;
+  width: 35vw;
 }
 
 #DaoDac img {
   margin: 4vh;
   border: 5px black solid;
   border-radius: 20px;
-  size: auto;
+  max-width: 90%;
+  height: auto;
 }
 
 footer {
@@ -139,4 +137,48 @@ footer {
 
 footer a {
   color: rgb(216, 185, 247);
+}
+
+@media only screen and (max-width: 1200px) {
+  header {
+    display: none;
+  }
+
+  #Ensamble p {
+    width: 70vw;
+  }
+
+  #Webutveckling {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #Webutveckling p {
+    width: 80vw;
+  }
+
+  #Programering {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Programering aside {
+    align-items: center;
+    width: 220px;
+  }
+
+  #Programering img {
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+  }
+
+  #DaoDac p {
+    width: 80vw;
+  }
+
+  footer {
+    display: none;
+  }
 }

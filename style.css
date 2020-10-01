@@ -19,12 +19,13 @@ header nav {
   justify-content: space-between;
 }
 
-.Rubrik {
+h2 {
   margin: 5%;
-  font-size: larger;
+  font-size: 2.2em;
   display: flex;
   justify-content: center;
 }
+
 body {
   background-color: rgb(216, 185, 247);
 }
@@ -43,6 +44,7 @@ li a {
   text-decoration: none;
   color: white;
 }
+
 li {
   list-style: none;
   margin: 20px;
@@ -50,6 +52,10 @@ li {
 
 img {
   width: 21vw;
+}
+
+article img {
+  display: block;
 }
 
 footer {
@@ -62,4 +68,23 @@ footer {
 
 footer a {
   color: rgb(216, 185, 247);
+}
+
+@media only screen and (max-width: 1200px) {
+  header {
+    display: none;
+  }
+
+  article {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 80vw;
+  }
+
+  footer {
+    display: none;
+  }
 }
